@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    color: darkblue;
+}
+p{
+    color: white;
+}
+#img1{
+    float: left;
+    margin-right: 25px ;
+    border-radius: 45%;
+}
+.header{
+    background-color: white;
+    border: 1px solid;
+    height: auto;
+    width: 80%;
+    text-align: left;
+    padding: 15px;
+    display: inline-block;
+}
+/*.div1{
+    background-color: rgb(30, 69, 153);
+    width: 100px;
+    height: 100px;
+    display: block;
+}*/
+.sidebox{
+    background-color: rgba(50, 59, 75, 255);
+    color: white;
+    height: auto;
+    width: 25%;
+    max-width: 30%;
+    float: left;
+    text-align: left;
+    padding: 15px;
+}
+.experience{
+    background-color: white;
+    border: 1px groove;
+    border-left: none;
+    height: auto;
+    width: 75%;
+    float: left;
+    text-align: left;
+    padding: 15px;
+}
+@media screen and (max-width:600px){
+    .sidebox, .experience{
+        width: 100%;
+    }
+}
+.fa-solid.fa-address-book.fa-2x{
+    display: contents;
+}
