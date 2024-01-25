@@ -1,9 +1,6 @@
 *{
     box-sizing: border-box;
 }
-body{
-    background-color: whitesmoke;
-}
 h1{
     color: darkblue;
 }
@@ -13,16 +10,21 @@ p{
 #img1{
     float: left;
     margin-right: 25px ;
-    border-radius: 45%;
+    border-radius: 5%;
+    border: 1px solid darkblue;
+    display: flex;
+    justify-content: baseline;
+    box-shadow: 3px 3px 5px;
 }
 .header{
     background-color: white;
-    border: 1px solid;
     height: auto;
-    width: 80%;
+    width: 99%;
+    margin: auto;
     text-align: left;
     padding: 15px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;  
 }
 /*.div1{
     background-color: rgb(30, 69, 153);
@@ -54,7 +56,4 @@ p{
     .sidebox, .experience{
         width: 100%;
     }
-}
-.fa-solid.fa-address-book.fa-2x{
-    display: contents;
 }
