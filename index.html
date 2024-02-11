@@ -1,130 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thien Huynh CV</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/4084f70cbb.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CV using HTML & CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" type="image/ico" href="favicon.png">
 </head>
 
-  <!--
-    - favicon
-  -->
-  <link rel="icon" type="image/ico" href="favicon.png">
+<!-- https://fontawesome.com/v4/icons/ -->
 
-<header>
-  <div class="header">
-    <!--
-    - avatar
-    -->
-  <img src="avatar.png" 
-  alt="this is my profile picture" 
-  height="300" 
-  id="img1">
-    <h1 style="font-size: 1.5em; ">Thien Huynh <br><br> Scrum Master / Project Manager
-      <ul style="font-family: 'Times New Roman', sans-serif; font-size: 17px; color: black;">
-        <li> Over 5 years of experience working with Software projects.</li>
-        <li> Good presentation skill for stakeholders/customers, especially at Pre-sales phase to acquire project.</li>
-        <li> Proficiency in English (writing, speaking, listening, reading).</li>
-        <li> Familiar with JIRA and Agile/Scrum or Waterfall methodology.</li>
-        <li> Capable of using tools to visualize prototype/ workflow/ ERD.</li>
-        <li> Understanding of a complete software development life cycle (SDLC).</li>
-        <li> Been through different types of domains (i.e: Insurance, Travel, Billing & Payment, Crypto).</li>
-      </ul>
-    </h1>
-    
+<body>
+    <div class="container">
+        <div class="left_Side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="avatar.jpg" height="300">
+                </div>
+                <h2>Thien Huynh<br><span>Project Manager</span></h2>
+            </div>
+            <div class="contactInfo">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">(+84) 0908 04 38 48</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text">khangthien2112@gmail.com</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/khangthien2112" target="_blank" title="https://github.com/khangthien2112" style="text-decoration: none;">
+                            <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                            <span class="text">My Github</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/thien-huynh-802136116/" target="_blank" title="https://www.linkedin.com/in/thien-huynh-802136116/" style="text-decoration: none;">
+                            <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                            <span class="text">My LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">District 9, Thu Duc, Viet Nam</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2014 - 2017</h5>
+                        <h4>Bachelor in Finance & Banking</h4>
+                        <h4>University of Economics Ho Chi Minh City (UEH)</h4>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo education">
+                <h3 class="title">Certificates</h3>
+                <ul>
+                    <li>
+                        <h5>2023</h5>
+                        <h4>PMI-ACP (Agile Certified Practitioner)</h4>
+                        <h4>Professional Scrum Master I</h4>
+                    </li>
+                    <li>
+                        <h5>2019</h5>
+                        <h4>Transformational Leadership</h4>
+                        <h4>(by: Dale Carnegie training camp)</h4>
+                    </li>
+                    <li>
+                        <h5>2018</h5>
+                        <h4>Advanced Business Analysis (ABA)</h4>
+                        <h4>Fundamental Business Analysis (FBA)</h4>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo expertise">
+                <h3 class="title">Expertises</h3>
+                <ul>
+                    <li>
+                        <span class="text">Project Management</span>
+                        <span class="percent">
+                            <div style="width: 85%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">IT Business Analytic</span>
+                        <span class="percent">
+                            <div style="width: 70%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Product Ownership</span>
+                        <span class="percent">
+                            <div style="width: 40%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right_Side">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <ul style="font-size: 16px ;color: #333">
+                    <li>Over 5 years of experience working with Software projects.</li>
+                    <li>Good communication skill with team members, managers, stakeholders and customers.</li>
+                    <li>Fluent in English (writing, speaking, listening, reading).</li>
+                    <li>Proficiency with JIRA and Agile/Scrum as well as Waterfall methodology.</li>
+                    <li>Capable of using tools to support business or visualization prototype/ mock-up/ workflow.</li>
+                    <li>Understanding of a complete software development life cycle (SDLC).</li>
+                    <li>Domains experience in projects (i.e: Insurance, Travel, Billing & Payment, Crypto).</li>
+                </ul>
+            </div>
+            <div class="about">
+                <h2 class="title2">Experience</h2>
+                <div class="box">
+                    <a href="https://fptsoftware.com/" target="_blank" title="https://fptsoftware.com/" style="text-decoration: none;">
+                        <div class="year_company">
+                            <h5>Oct 2021 - Present</h5>
+                            <h5>FPT Software</h5>
+                        </div>
+                    </a>
+                    <div class="text">
+                        <h4>Scrum Master</h4>
+                        <ul>
+                            <li> Leading a scrum team with scale of 10-12 members.</li>
+                            <li> Guide the team on Scrum activities and events, including sprint planning, daily scrum, sprint review, and sprint retrospective.</li>
+                            <li> Perform activities for grooming and maintaining the product backlog. Contribute to backlog management, prioritization.</li>
+                            <li> Prepare user stories to agree with team and Product Owner.</li>
+                            <li> Facilitating discussion, decision making, and conflict resolution when discussing issues across squads.</li>
+                            <li> Coaching regarding Agile methodology and Scrum framework. Ensuring effectiveness when applying every piece of Scrum so that team can benefit the most from its practices.</li>
+                            <li> Remove impediments and roadblocks which slow the team down on delivering sprint goals.</li>
+                            <li> Come up with metrics to report back to management team.</li>
+                            <li> Foster a culture of continuous improvement and innovation.</li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="https://www.diginex.com/" target="_blank" title="https://www.diginex.com/" style="text-decoration: none;">
+                        <div class="year_company">
+                            <h5>Jul 2019 - Sept 2021</h5>
+                            <h5>EQONEX (Closed)</h5>
+                        </div>
+                    </a>
+                    <div class="text">
+                        <h4>Project Manager</h4>
+                        <ul>
+                            <li> Providing end-to-end project management.</li>
+                            <li> Determine and define project scope and objectives.</li>
+                            <li> Developing a project plan, monitoring progress, and tracking the traffic and workload of team members.</li>
+                            <li> Managing stakeholders expectations, prioritizing and negotiating timelines and deliverables to meet key business objectives.</li>
+                            <li> Managing contracts with vendors, suppliers, and external.</li>
+                            <li> Using JIRA, Confluence, and available tools to monitor work stream and key metrics.</li>
+                            <li> Generating project reports for executive management.</li>
+                            <li> Measure project performance to identify areas for improvement</li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="https://www.spsglobal.com/en" target="_blank" title="https://www.spsglobal.com/en" style="text-decoration: none;">
+                        <div class="year_company">
+                            <h5>Jun 2017 - Jun 2019</h5>
+                            <h5>Swiss Post Solution</h5>
+                        </div>
+                    </a>
+                    <div class="text">
+                        <h4>IT Business Analyst</h4>
+                        <!--<p> </p> -->
+                        <ul>
+                            <li> Collect customer business process, needs and requirements.</li>
+                            <li> Analyze requirements from customers in business, technical and end-user view.</li>
+                            <li> Engage stakeholders to determine and advice the best solution for the project.</li>
+                            <li> Ensure business requirements are at its most-fully understood by Development and provide input to design and product speciﬁcations.</li>
+                            <li> Create documentation for implementation team and end-user.</li>
+                            <li> Document, keep track and manage requirements, speciﬁcations and change requests of projects.</li>
+                            <li> Transfer requests for dev & test team to go over the speciﬁcation, Q&A, consult the solutions or handle problems.</li>
+                            <li> Acting as a bridge to minimize the gap between the requirement/ implementation and realistic of the project.</li>
+                            <li> Consult ideas, improvement based on customers requirement to optimize the the product.</li>
+                            <li> Perform pre-sales activities (effort estimation, software demo, RFP response, sales collateral).</li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        
+        <!--<div class="skills">
+            <h2 class="title2">Professional skills</h2>
+            <div class="box">
+                <h4>HTML</h4>
+                <div class="percent">
+                    <div style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="box">
+                <h4>CSS</h4>
+                <div class="percent">
+                    <div style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="box">
+                <h4>Javascript</h4>
+                <div class="percent">
+                    <div style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="box">
+                <h4>Data Analytic</h4>
+                <div class="percent">
+                    <div style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="box">
+                <h4>Agile</h4>
+                <div class="percent">
+                    <div style="width: 95%;"></div>
+                </div>
+            </div>
+        </div> -->
+        
+        <div class="technical">
+            <h2 class="title2">Some Tech I worked with</h2>
+            <ul>
+                <li><i class="fa fa-html5" aria-hidden="true"></i> HTML/CSS</li>
+                <li><i class="fa fa-code" aria-hidden="true"></i>Javascript</li>
+                <li><i class="fa fa-database" aria-hidden="true"></i>SQL Database</li>
+                <li><i class="fa fa-globe" aria-hidden="true"></i>Jupyter Notebook</li>          
+            </ul>
+        </div>
     </div>
-  </div>
-</header>
-<br>
-
-<main>
-
-
-
-  
-  <!--
-    - sidebox with basic information
-  -->
-  <sidebox class="sidebox">
-    <i class="fa-solid fa-address-book fa-1x"></i>
-    <h1 style="color: white; display: inline-flex; font-size: 25px;">Contact</h1>
-    <hr>
-    <i class="fa-solid fa-phone fa-1x"></i>
-    <h2 style="display: inline-flex">Phone: <br> (+84) 0908.04.38.48<h2>
-    <i class="fa-solid fa-envelope fa-1x"></i>
-    <h2 style="display: inline-flex">Email: <br> khangthien2112@gmail.com </h2>
-    <i class="fa-solid fa-location-arrow"></i>
-    <h2 style="display: inline-flex">Address: <br> District 9, Ho Chi Minh City, VietNam</h2>
-  
-    <i class="fa-solid fa-school fa-1x"></i>
-    <h1 style="color: white; display: inline-flex; font-size: 25px">Education</h1>
-    <hr>
-    <h3>Year: 2017</h3>
-    <p>Bachelor of Finance & Banking</p>
-    <small><p>University of Economics Ho Chi Minh City (UEH)</p></small>
-
-    <i class="fa-solid fa-flask fa-1x"></i>
-    <h1 style="color: white; display: inline-flex; font-size: 25px">Expertise</h1>
-    <hr>
-    <p>Project Management - Agile/Scrum/Hybrid</p>
-    <p>IT Business Analyst</p>
-    <p>Tech stack: HTML, CSS, SQL, Data Analytic </p>
-  </sidebox>
-
-  <!--
-    - experience working history
-  -->
-<experience class="experience">
-  <h1> Experience </h1>
-  <hr>
-  <h2> Sept 2021 - Sept 2023 </h2>
-  <h3 style="color: red;"> FPT Software </h3>
-  <h3><b> Scrum Master </b></h3>
-  <ul>
-    <li> Leading a scrum team with scale of 10-12 members.</li>
-    <li> Guide the team on Scrum activities and events, including sprint planning, daily scrum, sprint review, and sprint retrospective.</li>
-    <li> Performing activities for grooming and maintaining the product backlog. Contribute to backlog management, prioritization within the team.</li>
-    <li> Prepare user stories to agree with team and Product Owner.</li>
-    <li> Facilitating discussion, decision making, and conflict resolution when discussing issues across squads.</li>
-    <li> Coaching regarding Agile methodology and Scrum framework. Ensuring effectiveness when applying every piece of Scrum so that team can benefit the most from its practices.</li>
-    <li> Remove impediments and roadblocks which slow the team down on delivering sprint goals.</li>
-    <li> Come up with metrics to report back to management team.</li>
-    <li> Foster a culture of continuous improvement and innovation within the team.</li>
-  </ul>
-    <hr>
-  <h2> July 2019 - Sept 2021 </h2>
-  <h3 style="color: red;"> EQONEX Viet Nam </h3>
-  <h3><b> Project Manager </b></h3>
-  <ul>
-    <li> Providing end-to-end project management.</li>
-    <li> Determine and define project scope and objectives.</li>
-    <li> Developing a project plan, monitoring progress, and tracking the traffic and workload of team members.</li>
-    <li> Managing stakeholders expectations, as well as prioritizing and negotiating timelines and deliverables to meet key business objectives.</li>
-    <li> Managing contracts with vendors and suppliers, risks, and external dependencies.</li>
-    <li> Using JIRA, Confluence, and available tools to monitor work stream and key metrics.</li>
-    <li> Generating project reports for executive management.</li>
-    <li> Measure project performance to identify areas for improvement</li>
-  </ul>
-    <hr>
-  <h2> June 2017 - June 2019 </h2>
-  <h3 style="color: red;"> Swiss Post Solution Viet Nam </h3>
-  <h3><b> IT Business Analyst </b></h3>
-  <ul>
-    <li> Collect and Understand customer business process, needs and requirements.</li>
-    <li> Analyze requirements from customers in business, technical and end-user view.</li>
-    <li> Engage stakeholders to determine and advice the best solution for the project.</li>
-    <li> Ensure business requirements are at its most-fully understood by Development and provide input to design and product speciﬁcations.</li>
-    <li> Create documentation for implementation team and end-user.</li>
-    <li> Document, keep track and manage requirements, speciﬁcations and change requests of projects.</li>
-    <li> Transfer requests for dev & test team to go over the speciﬁcation, Q&A, consult the solutions or handle problems.</li>
-    <li> Acting as a bridge to minimize the gap between the requirement/ implementation and realistic of the project.</li>
-    <li> Consult ideas, improvement based on customers requirement to optimize the the product.</li>
-    <li> Perform pre-sales activities (effort estimation, software demo, RFP response, sales collateral).</li>
-  </ul>
-</experience>
-
-</main>
+    </div>
+</body>
+</html>
