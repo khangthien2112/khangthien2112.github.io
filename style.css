@@ -25,7 +25,7 @@ body{
 .container .left_Side{
     position: relative;
     background: #003147;
-    padding: 40px;
+    padding: 35px;
 }
 .profileText{
     position: relative;
@@ -153,7 +153,7 @@ p{
 }
 .about .box .year_company h5{
     text-transform: uppercase;
-    color: #848c90;
+    color: #8b4303;
     font-weight: 600;
 }
 .about .box .text h4{
