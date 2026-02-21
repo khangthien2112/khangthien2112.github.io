@@ -58,19 +58,14 @@ body{
     color: #fff;
     font-size: 1.5em;
     margin-top: 20px;
-<<<<<<< HEAD
-=======
     display: flex;
     flex-direction: column;
     align-items: center;
->>>>>>> c9b6236 (Update site: index.html and workflow)
 }
 .profileText h2 span{
     font-size: 0.8em;
     font-weight: 300;
 }
-<<<<<<< HEAD
-=======
 .profileText .nameRow{
     display: flex;
     align-items: center;
@@ -115,7 +110,6 @@ body{
     font-weight: 300;
     white-space: nowrap;
 }
->>>>>>> c9b6236 (Update site: index.html and workflow)
 .container .right_Side{
     position: relative;
     background: #fff;
@@ -209,8 +203,6 @@ p{
     color: #8b4303;
     font-weight: 600;
 }
-<<<<<<< HEAD
-=======
 /* Specific colors for date vs company name */
 .about .box .year_company h5.date{
     color: #8b4303; /* date color (keeps original) */
@@ -218,7 +210,6 @@ p{
 .about .box .year_company h5.company{
     color: #0d27ebed; /* company name color (different) */
 }
->>>>>>> c9b6236 (Update site: index.html and workflow)
 .about .box .text h4{
     text-transform: uppercase;
     color: #2a7da2;
